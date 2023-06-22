@@ -21,7 +21,6 @@ defmodule Programmingphoenix17Web.UserLive.FormComponent do
       >
         <.input field={@form[:name]} type="text" label="Name" />
         <.input field={@form[:username]} type="text" label="Username" />
-        <.input field={@form[:password_hash]} type="text" label="Password hash" />
         <:actions>
           <.button phx-disable-with="Saving...">Save User</.button>
         </:actions>

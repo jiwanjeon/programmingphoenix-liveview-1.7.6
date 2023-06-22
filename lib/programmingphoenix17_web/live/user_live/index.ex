@@ -24,6 +24,7 @@ defmodule Programmingphoenix17Web.UserLive.Index do
     socket
     |> assign(:page_title, "New User")
     |> assign(:user, %User{})
+    |> IO.inspect()
   end
 
   defp apply_action(socket, :index, _params) do
